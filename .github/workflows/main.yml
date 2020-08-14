@@ -4,7 +4,7 @@
 #   Author: ptpt52
 #=================================================
 
-name: x-wrt-8.0_b202006281500=bcm53xx-generic
+name: x-wrt-8.0_b202008081818=bcm53xx-generic
 
 on: 
   release:
@@ -83,5 +83,5 @@ jobs:
     - name : Upload artifact
       uses: actions/upload-artifact@master
       with:
-        name: x-wrt-8.0_b202006281500=bcm53xx-generic
+        name: x-wrt-8.0_b202008081818=bcm53xx-generic
         path: x-wrt/rom
